@@ -19,3 +19,28 @@ get('/carnival') do
   @player_name = User.all().name()
   erb(:carnival)
 end
+
+get('/b1') do
+  @player_name= User.all().name()
+  erb(:b1)
+end
+
+get('/b2') do
+  @player_name= User.all().name()
+  erb(:b2)
+end
+
+get('/b3') do
+  @player_name= User.all().name()
+  erb(:b3)
+end
+
+get('/b4') do
+  @player_name= User.all().name()
+  erb(:b4)
+end
+
+get('/b5') do
+  @player_name= User.all().name()
+  erb(:b5)
+end
