@@ -1,20 +1,20 @@
 class User
 
-  @@name = []
+  @@player = []
 
-  define_method(:initialize) do |player|
-    @player = player
+  define_method(:initialize) do |name|
+    @name = name
   end
 
-  define_method(:player) do
-    @player
+  define_method(:name) do
+    @name
   end
 
   define_singleton_method(:all) do
-    @@name
+    @@player
   end
 
   define_method(:save) do
-    @@name.push(self)
+    @@player.push(self)
   end
 end

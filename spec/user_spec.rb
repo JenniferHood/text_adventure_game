@@ -2,10 +2,10 @@ require('rspec')
 require('user')
 
 describe(User) do
-  describe('#player') do
+  describe('#name') do
     it('player enters their name') do
       test_user = User.new("Joy")
-      expect(test_user.player()).to(eq("Joy"))
+      expect(test_user.name()).to(eq("Joy"))
     end
   end
 
