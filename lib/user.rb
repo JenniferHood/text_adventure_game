@@ -1,6 +1,6 @@
 class User
 
-  @@player = []
+  @@player
 
   define_method(:initialize) do |name|
     @name = name
@@ -15,6 +15,6 @@ class User
   end
 
   define_method(:save) do
-    @@player.push(self)
+    @@player = (self)
   end
 end
