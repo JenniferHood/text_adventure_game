@@ -15,7 +15,7 @@ post('/user') do
   erb(:user)
 end
 
-get('/b1') do
+get('/carnival') do
   @player_name = User.all().name()
-  erb(:b1)
+  erb(:carnival)
 end
