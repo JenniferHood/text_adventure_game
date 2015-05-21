@@ -15,6 +15,11 @@ post('/user') do
   erb(:user)
 end
 
+get('/user') do
+  @player_name = User.all().name()
+  erb(:user)
+end
+
 get('/carnival') do
   @player_name = User.all().name()
   erb(:carnival)
@@ -118,6 +123,11 @@ end
 get('/a4') do
   @player_name = User.all().name()
   erb(:a4)
+end
+
+get('/a5') do
+  @player_name = User.all().name()
+  erb(:a5)
 end
 
 get('/a6') do
