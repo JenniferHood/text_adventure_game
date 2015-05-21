@@ -43,6 +43,7 @@ end
 get('/b5') do
   @player_name= User.all().name()
   erb(:b5)
+end
 
 get('/city') do
   @player_name = User.all().name()
