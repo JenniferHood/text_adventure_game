@@ -54,3 +54,8 @@ get('/d6') do
   @player_name = User.all().name()
   erb(:d6)
 end
+
+get('/d7') do
+  @player_name = User.all().name()
+  erb(:d7)
+end
