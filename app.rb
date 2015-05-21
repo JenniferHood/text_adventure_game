@@ -20,9 +20,6 @@ get('/carnival') do
   erb(:carnival)
 end
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 get('/b1') do
   @player_name= User.all().name()
   erb(:b1)
@@ -46,8 +43,8 @@ end
 get('/b5') do
   @player_name= User.all().name()
   erb(:b5)
-=======
->>>>>>> fc798bf10395158e2345ac2e6dc65b2a5a54bc7a
+end
+
 get('/city') do
   @player_name = User.all().name()
   erb(:city)
@@ -102,8 +99,7 @@ get('/c10') do
   @player_name = User.all().name()
   erb(:c10)
 end
-<<<<<<< HEAD
-=======
+
 get('/a1') do
   @player_name = User.all().name()
   erb(:a1)
@@ -135,8 +131,6 @@ get('/a7') do
   @player_name = User.all().name()
   erb(:a6)
 end
->>>>>>> master
-=======
 
 get('/d1') do
   @player_name = User.all().name()
@@ -166,7 +160,4 @@ end
 get('/d6') do
   @player_name = User.all().name()
   erb(:d6)
->>>>>>> 13828a857564e4eb1385ec75002cb6193c47a6ea
 end
-
->>>>>>> fc798bf10395158e2345ac2e6dc65b2a5a54bc7a
