@@ -74,3 +74,34 @@ get('/c10') do
   @player_name = User.all().name()
   erb(:c10)
 end
+
+get('/d1') do
+  @player_name = User.all().name()
+  erb(:d1)
+end
+
+get('/d2') do
+  @player_name = User.all().name()
+  erb(:d2)
+end
+
+get('/d3') do
+  @player_name = User.all().name()
+  erb(:d3)
+end
+
+get('/d4') do
+  @player_name = User.all().name()
+  erb(:d4)
+end
+
+get('/d5') do
+  @player_name = User.all().name()
+  erb(:d5)
+end
+
+get('/d6') do
+  @player_name = User.all().name()
+  erb(:d6)
+end
+
