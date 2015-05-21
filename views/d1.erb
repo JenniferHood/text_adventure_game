@@ -1,11 +1,18 @@
-<h1></h1>
 
-<p>.</p>
-
-
-<p><label for="player"><%= @player_name %>, what be your move?</label>
+<h1>Rowdy Crowd</h1>
 
 
-  <a class="btn btn-info" type="button" href="/carnival">Go to carnival</a>
+<p>Your curiousity prevails and you choose to wander towards the crowd even though you're feeling weak with hunger.  As you walk the half mile or so over charred remains towards the crowd.  You say to yourself "<%= @player_name.capitalize %> wake up!"  Obviously you must be dreaming, the streets look like a zombie apocolypse has happened, this must be a dream.  You pinch yourself, and nothing happens.  You're still here to your dissappointment.   Before long you find yourself amongst the gathered crowd who are getting louder and rowdier as discussions of aliens and burning cities are spoken.  The group is mad and are calling for revenge on the aliens that have destroyed their once beutiful city</p>
 
-  <a class="btn btn-info" type="button" href="/city">Go to burning city</a>
+<p>"<%= @player_name.upcase %>!...<%= @player_name.upcase %>!" Someone shouts out.  You look over but can't quite make out who's calling to you.
+
+</p>
+
+
+<p><h4><%= @player_name.capitalize %>, do you approach where you hear your name is coming from? Or does hunger get the best of you?</h4></p>
+
+
+
+  <a class="btn btn-info" type="button" href="/d2">Go towards voice calling</a>
+
+  <a class="btn btn-info" type="button" href="/d3">Go look for food</a>
