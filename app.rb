@@ -43,7 +43,10 @@ end
 get('/b5') do
   @player_name= User.all().name()
   erb(:b5)
+<<<<<<< HEAD
 end
+=======
+>>>>>>> beb14bce5baca0002202e704572e7954e4323b71
 
 get('/city') do
   @player_name = User.all().name()
@@ -120,12 +123,10 @@ get('/a4') do
   erb(:a4)
 end
 
-
 get('/a6') do
   @player_name = User.all().name()
   erb(:a6)
 end
-
 
 get('/a7') do
   @player_name = User.all().name()
@@ -161,3 +162,11 @@ get('/d6') do
   @player_name = User.all().name()
   erb(:d6)
 end
+<<<<<<< HEAD
+=======
+
+get('/d7') do
+  @player_name = User.all().name()
+  erb(:d7)
+end
+>>>>>>> beb14bce5baca0002202e704572e7954e4323b71
