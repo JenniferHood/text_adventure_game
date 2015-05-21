@@ -127,7 +127,7 @@ end
 
 get('/a7') do
   @player_name = User.all().name()
-  erb(:a6)
+  erb(:a7)
 end
 
 get('/d1') do
