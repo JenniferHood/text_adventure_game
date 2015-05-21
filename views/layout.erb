@@ -7,7 +7,6 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
   <link rel="stylesheet" href="/styles.css">
 
-
   <style>
 body {
   /* This image will be displayed fullscreen */
@@ -22,11 +21,16 @@ body {
 
 </style>
 
+
 </head>
 <body>
   <div class='container'>
     <%= yield %>
   </div>
-</body>
 
+</body>
+	<audio loop="true" autoplay="true">
+	<source src="Circus-music.mp3">
+	Your browser does not support the audio element.
+	</audio>
 </html>
