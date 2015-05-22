@@ -1,16 +1,24 @@
-<h1>Pet Food</h1>
-
-<p>You already know your answer but you make a big deal pretending to think about it. "Okay. I'll be your pet.</p>
-
-<p>You see King Polly's eyes light up again. "Whoa. Hey,"you say.</p>
-<p>But the lazers shoot out. As they they sear through your body and chop you to bits you hear that cursed bird cackle with rust laughter. "Loser", say King Polly. "This is you're real fate."</p>
-
-<p>As your head rolls from your body you realize one universal truth...Mondays suck. </p>
-
-<p><img src='/img/head.jpg' alt='pic of dead head'/></p>
 
 
-<p><label for="player"><%= @player_name %>, you're dead.</label>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>Pet Food</h1>
+
+      <p>You already know your answer but you make a big deal pretending to think about it. "Okay. I'll be your pet.</p>
+
+      <p>You see King Polly's eyes light up again. "Whoa. Hey,"you say.</p>
+      <p>But the lazers shoot out. As they they sear through your body and chop you to bits you hear that cursed bird cackle with rust laughter. "Loser", say King Polly. "This is you're real fate."</p>
+
+      <p>As your head rolls from your body you realize one universal truth...Mondays suck. </p>
+
+      <p><img src='/img/head.jpg' alt='pic of dead head'/></p>
 
 
-  <a class="btn btn-info" type="button" href="/carnival">Dead</a>
+      <h4><%= @player_name.capitalize %>, you're dead.</h4>
+
+
+        <a class="btn btn-danger" type="button" href="/user">Try Again</a>
+
+    </div>
+  </div>

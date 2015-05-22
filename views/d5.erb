@@ -1,13 +1,22 @@
-<h1>Run like your feet are on fire!</h1>
-
-<p>"With no time to think I quickly started walking then running from the crowd, I could hear Ralph in the background calling out "<%= @player_name.capitalize %> is getting away."  You run until you are out of breath, you look behind you and it looks like you got away.  But you know you're not safe and should find a place to hide.
-
-</p>
 
 
-<p><h4><%= @player_name.capitalize %>, time to decide. You could probably find shelter at the carnival away from the angry mob, or you can stay in the city and look for shelter. </h4></p>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>Run like your feet are on fire!</h1>
+
+      <p>With no time to think you quickly start walking then running from the crowd, you could hear Ralph in the background calling out "<%= @player_name.capitalize %> is getting away."  You run until you are out of breath, you look behind you and it looks like you got away.  But you know you're not safe and should find a place to hide.
+
+      </p>
 
 
-  <a class="btn btn-info" type="button" href="/carnival">Go to Carnival</a>
+      <p><h4><%= @player_name.capitalize %>, time to decide. You could probably find shelter at the carnival away from the angry mob, or you can stay in the city and look for shelter. </h4></p>
 
-  <a class="btn btn-info" type="button" href="/d7">Stay in the City</a>
+
+        <a class="btn btn-danger" type="button" href="/carnival">Go to Carnival</a>
+
+        <a class="btn btn-danger" type="button" href="/d7">Stay in the City</a>
+
+
+    </div>
+  </div>

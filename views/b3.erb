@@ -1,16 +1,24 @@
-<h1>Bad Life Choices...your momma was wrong.</h1>
-
-<p>You tell the bird to get bent and it feels great! "I'm the hero of THIS story you say." You turn to face the crowd. "Hey everyone! Over here." You look forward to meeting these new people, making friends and finally getting some answere.</p>
-
-<p>But, it appears your mom was wrong. The crowd soon surrounds you and gleafully tears you appart. As you beg for mercy you hear the metal bird laugh and laugh.</p>
-
-<p>Soon you are dead, and your body scattered over dozens of campfires as the hipsters sing songs, drink craft beer and shake their bearded heads at how stupid you where. </p>
 
 
-<p><img src='/img/hipster_camp.jpg' alt='camp fire'/></p>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>Bad Life Choices...your momma was wrong.</h1>
+
+      <p>You tell the bird to get bent and it feels great! "I'm the hero of THIS story you say." You turn to face the crowd. "Hey everyone! Over here." You look forward to meeting these new people, making friends and finally getting some answere.</p>
+
+      <p>But, it appears your mom was wrong. The crowd soon surrounds you and gleafully tears you appart. As you beg for mercy you hear the metal bird laugh and laugh.</p>
+
+      <p>Soon you are dead, and your body scattered over dozens of campfires as the hipsters sing songs, drink craft beer and shake their bearded heads at how stupid you where. </p>
 
 
-<p><label for="player"><%= @player_name %>, what be your move?</label>
+      <p><img src='/img/hipster_camp.jpg' alt='camp fire'/></p>
 
 
-  <a class="btn btn-info" type="button" href="/carnival">Start over</a>
+      <h4><%= @player_name.capitalize %>, Game Over!</h4>
+
+
+        <a class="btn btn-danger" type="button" href="/user">Try Again</a>
+
+    </div>
+  </div>
