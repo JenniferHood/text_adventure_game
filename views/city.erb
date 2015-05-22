@@ -1,9 +1,14 @@
-<h1>Welcome to the Burning City!</h1>
-
-<p>You approach the burning city and to your dismay you see dead corpes lying in the smoke filled streets.  You approach with apprehension.  Your stomach growls, it feels like you haven't eaten in days.  Looking around your choices seem limited. You see a foodtruck down the street so you wander towards it.  In the distance you hear a rumbling crowd.</p>
 
 
-<p><h4><%= @player_name.capitalize %>, do you go for the foodtruck or turn towards the crown noise?</h4></p>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>Welcome to the Burning City!</h1>
+
+      <p>You approach the burning city and to your dismay you see dead corpes lying in the smoke filled streets.  You approach with apprehension.  Your stomach growls, it feels like you haven't eaten in days.  Looking around your choices seem limited. You see a foodtruck down the street so you wander towards it.  In the distance you hear a rumbling crowd.</p>
+
+
+      <p><h4><%= @player_name.capitalize %>, do you go for the foodtruck or turn towards the crown noise?</h4></p>
 
 
 
@@ -11,9 +16,12 @@
 
 
 
-  <a class="btn btn-info" type="button" href="/c1">Go to foodtruck</a>
+        <a class="btn btn-danger" type="button" href="/c1">Go to foodtruck</a>
 
 
-  <a class="btn btn-info" type="button" href="/d1">Go towards crowd</a>
-  
+        <a class="btn btn-danger" type="button" href="/d1">Go towards crowd</a>
+
+    </div>
+  </div>
+
   <img class="pull-right" style="margin-top:10px" src='/img/alien-monster.png'>

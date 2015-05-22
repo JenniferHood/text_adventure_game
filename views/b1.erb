@@ -1,18 +1,26 @@
-<h1>Idiot</h1>
-<p><img src='/img/parrot.jpg' alt='pic of angry bird'/></p>
 
-<p>"Ahh, like the lemming you are, you come when you're called." <%= @player_name %>, you look down and see the voice insulting you is coming from a metalic beak in the crack. CLANKING, like a sack full of returnables, you follow the noise to the top of the gate to see a rusted metalic parrot perched on the top. It has red glowing eyes.  </p>
+   <div class="panel panel-primary panel-transparent">
+     <div class="panel-body">
 
-<p>From behind, you hear shouting. An angry crowd of filthy people wearing skinny jean are bearing down on you. They appear insane and look hungry. The metal bird cackles. "Come with me if you want to live." </p>
+       <h1>Idiot</h1>
+       <p><img src='/img/parrot.jpg' alt='pic of angry bird'/></p>
 
-<p>This bird doesn't seem right in the head. And he called you a lemming. But you doubt the shambling crowd getting closer is going to ask you to join a pick up game of ultimate frisbee. Fudge. This feels like a Monday. </p>
+       <p>"Ahh, like the lemming you are, you come when you're called." <%= @player_name.capitalize %>, you look down and see the voice insulting you is coming from a metalic beak in the crack. CLANKING, like a sack full of returnables, you follow the noise to the top of the gate to see a rusted metalic parrot perched on the top. It has red glowing eyes.  </p>
+
+       <p>From behind, you hear shouting. An angry crowd of filthy people wearing skinny jean are bearing down on you. They appear insane and look hungry. The metal bird cackles. "Come with me if you want to live." </p>
+
+       <p>This bird doesn't seem right in the head. And he called you a lemming. But you doubt the shambling crowd getting closer is going to ask you to join a pick up game of ultimate frisbee. Fudge. This feels like a Monday. </p>
 
 
-<p><label for="player"><%= @player_name %>, what do you do? Be quick!</label></p>
+       <p><label for="player"><%= @player_name.capitalize %>, what do you do? Be quick!</label></p>
 
-<p>The metal bird snorts at your indecision. "You're not the sharpest tool are you? ", it crows. </p>
+       <p><h4>The metal bird snorts at your indecision. "You're not the sharpest tool are you? <%= @player_name.capitalize %>", it crows.</h4> </p>
 
 
-   <a class="btn btn-info" type="button" href="/b2">Swallow your pride and follow the bird.</a>
+          <a class="btn btn-danger" type="button" href="/b2">Swallow your pride and follow the bird.</a>
 
-   <a class="btn btn-info" type="button" href="/b3">Take your chances with the sketchy crowd. You're momma said never judge people by their appearence.</a>
+          <a class="btn btn-danger" type="button" href="/b3">Take your chances with the sketchy crowd. You're momma said never judge people by their appearence.</a>
+
+
+     </div>
+   </div>

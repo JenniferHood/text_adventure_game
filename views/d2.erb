@@ -1,17 +1,24 @@
-<h1>Hey, <%= @player_name.upcase %> come here!</h1>
 
-<p><%= @player_name.upcase %>!  Remember me?  I squint my eyes but can't make out who's calling.  I get closer to the caller as I walk through the crowd.  I stare the caller dead in the face, I must have had a blank look cause he said "it's me Ralph, you remember from the bar last night."  My mind races, <%= @player_name.capitalize %>, what is happening to you. Get it together.  "Oh yeah Ralph, from the bar.  Of course I remember.  Uh..um how's it going?"  Ralph begins to shout out to the crowd "Hey everyone this is <%= @player_name.capitalize %>, who I was telling you about.  <%= @player_name.capitalize %> was helping the aliens burn the city last night."
-</p>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+      <h1>Hey, <%= @player_name.upcase %> come here!</h1>
 
-<p>
-  You just realized Ralph isn't a friend, your being thrown under the bus.  And Ralph is driving!  Ralph continues to shout out to get the crowds attention.
-</p>
+      <p><%= @player_name.upcase %>!  Remember me?  You squint your eyes but can't make out who's calling.  You get closer to the caller as you walk through the crowd.  You stare the caller dead in the face, You must have had a blank look cause he said "it's me Ralph, you remember from the bar last night."  Your mind races, <%= @player_name.capitalize %>, what is happening to you. Get it together.  "Oh yeah Ralph, from the bar.  Of course you remember.  Uh..um how's it going?"  Ralph begins to shout out to the crowd "Hey everyone this is <%= @player_name.capitalize %>, who I was telling you about.  <%= @player_name.capitalize %> was helping the aliens burn the city last night."
+      </p>
+
+      <p>
+        You just realized Ralph isn't a friend, your being thrown under the bus.  And Ralph is driving!  Ralph continues to shout out to get the crowds attention.
+      </p>
 
 
-<p><h4><%= @player_name.capitalize %>, do you run before Ralph feeds you to the crowd?
- Or do you stay and defend your good name?</h4></p>
+      <p><h4><%= @player_name.capitalize %>, do you run before Ralph feeds you to the crowd?
+       Or do you stay and defend your good name?</h4></p>
 
 
-  <a class="btn btn-info" type="button" href="/d5">Run for your Life</a>
+        <a class="btn btn-danger" type="button" href="/d5">Run for your Life</a>
 
-  <a class="btn btn-info" type="button" href="/d6">Defend your Honor</a>
+        <a class="btn btn-danger" type="button" href="/d6">Defend your Honor</a>
+
+
+    </div>
+  </div>

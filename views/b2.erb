@@ -1,33 +1,31 @@
-<h1>Guess I'm weak. I do what I'm told.</h1>
-<p><img src='/img/smug.jpg' alt='pic of smug bird'/></p>
-
-<p>You scramble over the gate and cast your lot with the bird. "Smart move", Mr. metal bird says. It spreads it's silvery wings and it's eyes begin to burn with fire as it turns to the approaching crowd. "Now to take care of some business."<p>
-
-<p>"What are you going to do, chirp at them?" you say. You're still laughing at your own joke when the mechanical bird lets out a war cry and twin lazers shoot from it's eyes. </p>
-
-<p>The lazers connect with the mob and they burst into flames. They scream and beg for mercy but the rusty parrot screaches with delight.</p>
-
-<p>When it's over you see blackened bodies and a milky white cloud snaking upwards. The air is heavy with the scent of bacon. </p>
-
-<p>"That's that" says the crazy bird. "No more hispters." It turns it's attention to you. Now <%= @player_name %>, it is time for me to reveal your destiny." It waits expectanly.</p>
-
-<p>"What is it?". The bird is silent. "Oh great one?" you add.</p>
-
-<p>"Yes" say the bird. "You're lot in life is to serve me as my pet!" It spreads it's rusty wings for emphasis. They squeak. "Your first duty will be to oil my body. The rain does a number. And you will now refer to me as King Polly."</p>
 
 
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>Guess I'm weak. I do what I'm told.</h1>
+      <p><img src='/img/smug.jpg' alt='pic of smug bird'/></p>
+
+      <p>You scramble over the gate and cast your lot with the bird. "Smart move", Mr. metal bird says. It spreads it's silvery wings and it's eyes begin to burn with fire as it turns to the approaching crowd. "Now to take care of some business."<p>
+
+      <p>"What are you going to do, chirp at them?" you say. You're still laughing at your own joke when the mechanical bird lets out a war cry and twin lazers shoot from it's eyes. </p>
+
+      <p>The lazers connect with the mob and they burst into flames. They scream and beg for mercy but the rusty parrot screaches with delight.</p>
+
+      <p>When it's over you see blackened bodies and a milky white cloud snaking upwards. The air is heavy with the scent of bacon. </p>
+
+      <p>"That's that" says the crazy bird. "No more hispters." It turns it's attention to you. Now <%= @player_name.capitalize %>, it is time for me to reveal your destiny." It waits expectanly.</p>
+
+      <p>"What is it?". The bird is silent. "Oh great one?" you add.</p>
+
+      <p>"Yes" say the bird. "You're lot in life is to serve me as my pet!" It spreads it's rusty wings for emphasis. They squeak. "Your first duty will be to oil my body. The rain does a number. And you will now refer to me as King Polly."</p>
+
+      <h4><%= @player_name.capitalize %>, what be your move?</h4>
 
 
+        <a class="btn btn-danger" type="button" href="/b4">Be a pet</a>
 
+        <a class="btn btn-danger" type="button" href="/b5">Hell No!</a>
 
-
-
-
-
-
-<p><label for="player"><%= @player_name %>, what be your move?</label>
-
-
-  <a class="btn btn-info" type="button" href="/b4">Be a pet</a>
-
-  <a class="btn btn-info" type="button" href="/b5">Hell No!</a>
+    </div>
+  </div>

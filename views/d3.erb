@@ -1,14 +1,22 @@
-<h1>YORG! your stomach growls.</h1>
-
-<p>"<%= @player_name.capitalize %>," you say to yourself "...just get some food and get the hell outta here."
-  You remember the food truck you had spotted earlier and make a B-line back towards the truck.  Along the way you are stopped in your tracks by a large group of teen boys demanding a toll to proceed.
-
-</p>
 
 
-<p><h4><%= @player_name.capitalize %>, confront the group? or Pay the toll and continue on you way?</h4></p>
+  <div class="panel panel-primary panel-transparent">
+    <div class="panel-body">
+
+      <h1>YORG! your stomach growls.</h1>
+
+      <p>"<%= @player_name.capitalize %>," you say to yourself "...just get some food and get the hell outta here."
+        You remember the food truck you had spotted earlier and make a B-line back towards the truck.  Along the way you are stopped in your tracks by a large group of teen boys demanding a toll to proceed.
+
+      </p>
 
 
-  <a class="btn btn-info" type="button" href="/d6">Defend your Honor</a>
+      <p><h4><%= @player_name.capitalize %>, confront the group? or Pay the toll and continue on you way?</h4></p>
 
-  <a class="btn btn-info" type="button" href="/c1">Go to FoodTruck</a>
+
+        <a class="btn btn-danger" type="button" href="/d6">Defend your Honor</a>
+
+        <a class="btn btn-danger" type="button" href="/c1">Go to FoodTruck</a>
+
+    </div>
+  </div>
