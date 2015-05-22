@@ -1,3 +1,36 @@
 h1 {
-  font-family: 'Snowburst One', cursive;
+  /*font-family: 'Snowburst One', cursive;*/
+  /*font-family: 'Just Another Hand', cursive;*/
+  font-family: 'Rock Salt', cursive;
 }
+
+p {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+=======
+
+
+  .panel {
+    border: none;
+}
+
+  .panel-transparent {
+      background: none;
+  }
+
+  /*.panel-transparent .panel-heading{
+      background: rgba(122, 130, 136, 0.2)!important;
+  }*/
+
+  .panel-transparent .panel-body{
+      background: rgba(255, 255, 200, 0.6)!important;
+      border: none;
+  }

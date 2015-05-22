@@ -175,4 +175,3 @@ get('/d7') do
   @player_name = User.all().name()
   erb(:d7)
 end
-
